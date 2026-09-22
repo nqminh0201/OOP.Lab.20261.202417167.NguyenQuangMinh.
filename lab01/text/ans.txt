@@ -1,0 +1,13 @@
+6.1
+-----
+
+1. What happens if users choose "Cancel"?
+
+When the user chooses "Cancel", the returned value is
+JOptionPane.CANCEL_OPTION. The program can check this value
+and handle the Cancel action separately.
+
+2. How to customize the options to users?
+
+We can use JOptionPane.showOptionDialog() to create custom
+options such as "Yes" and "No".
